@@ -18,7 +18,7 @@ struct UserForm {
 
 struct FormControlsView: View {
   @State private var sendEmails = false
-    @State private var email = ""
+  @State private var email = ""
   @State private var device: Device = .steamDeck
 
   var body: some View {
@@ -52,24 +52,24 @@ struct ContentView: View {
     GeometryReader { geo in
       let isWide = geo.size.width > geo.size.height
 
-        if isWide {
-            HStack {
-                Image("steam-hardware")
-                  .resizable()
-                  .scaledToFit()
-                FormControlsView()
-            }
-            .padding()
-        } else {
-          VStack {
-            Image("steam-hardware")
-              .resizable()
-              .scaledToFit()
-              Image(systemName: "star")
-                  .padding()
-            FormControlsView()
+      if isWide {
+        HStack {
+          Image("steam-hardware")
+            .resizable()
+            .scaledToFit()
+          FormControlsView()
         }
-          .padding()
+        .padding()
+      } else {
+        VStack {
+          Image("steam-hardware")
+            .resizable()
+            .scaledToFit()
+          Image(systemName: "star")
+            .padding()
+          FormControlsView()
+        }
+        .padding()
       }
     }
   }
