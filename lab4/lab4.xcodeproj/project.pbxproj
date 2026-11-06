@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1211BD0309DB3BF0005E81D /* marunyak-ipz31 in Resources */ = {isa = PBXBuildFile; fileRef = A1211BCF309DB3BF0005E81D /* marunyak-ipz31 */; };
 		A121E3D4309489C200B424FE /* lab4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A121E3D3309489C200B424FE /* lab4App.swift */; };
 		A121E3D6309489C200B424FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A121E3D5309489C200B424FE /* ContentView.swift */; };
 		A121E3D8309489CB00B424FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A121E3D7309489CB00B424FE /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1211BCF309DB3BF0005E81D /* marunyak-ipz31 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "marunyak-ipz31"; path = ../../..; sourceTree = "<group>"; };
 		A121E3D0309489C200B424FE /* lab4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A121E3D3309489C200B424FE /* lab4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab4App.swift; sourceTree = "<group>"; };
 		A121E3D5309489C200B424FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 				A121E3D3309489C200B424FE /* lab4App.swift */,
 				A121E3D5309489C200B424FE /* ContentView.swift */,
 				A121E3D7309489CB00B424FE /* Assets.xcassets */,
+				A1211BCF309DB3BF0005E81D /* marunyak-ipz31 */,
 				A121E3D9309489CB00B424FE /* Preview Content */,
 			);
 			path = lab4;
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1211BD0309DB3BF0005E81D /* marunyak-ipz31 in Resources */,
 				A121E3DB309489CB00B424FE /* Preview Assets.xcassets in Resources */,
 				A121E3D8309489CB00B424FE /* Assets.xcassets in Resources */,
 			);
